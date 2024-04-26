@@ -1,5 +1,5 @@
 module "cornell_data" {
-  source = "../cornell-data"
+  source = "../cornell-network-data"
 }
 
 resource "aws_network_acl" "baseline" {
