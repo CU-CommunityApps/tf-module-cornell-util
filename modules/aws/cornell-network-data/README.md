@@ -5,7 +5,7 @@ This Terraform module provides basic network configuration information for the p
 # Usage
 
 ```
-module "baseline_nacl" {
-  source = "git::https://github.com/CU-CommunityApps/tf-module-cornell-util.git//modules/aws/cornell-network-data?ref=v1.0.0"
+module "cornell_data" {
+  source = "git::https://github.com/CU-CommunityApps/tf-module-cornell-util.git//modules/aws/cornell-network-data?ref=v1.1.0"
 }
 ```

@@ -4,6 +4,10 @@ This repository provides Terraform modules useful in the Cornell environment.
 
 ## Change Log
 
+### v1.1.0
+- Added `additional_egress_rules` and `additional_ingress_rules` to allow customization of NACL.
+- Added `excluded_cidrs` to allow excluding standard rules based on the CIDRs they contain.
+
 ### v1.0.0
 - Initial release
 
